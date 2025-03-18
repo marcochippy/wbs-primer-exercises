@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hogwarts Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li>Home</li>
+        <li>About Hogwarts</li>
+        <li>Apply Now</li>
+        <li>Contact</li>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Welcome to the Hogwarts Online Application! 🪄</h1>
+        <p>
+          Step into the magical world of wizards and witches! Whether you're a
+          brave Gryffindor, a cunning Slytherin, a loyal Hufflepuff, or a wise
+          Ravenclaw, this is your chance to join the most prestigious school of
+          witchcraft and wizardry. Fill out the form below to begin your
+          journey. Let the Sorting Hat guide you to your destiny! 🎩✨
+        </p>
+      </section>
+      <section>
+        <h2>Application Form</h2>
+        <fieldset>
+          <form>
+            <h3>Personal information</h3>
+            <div>
+              <label for="name">Your Full Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                minlength="1"
+                size="20" />
+            </div>
+            <br />
+            <div>
+              <label for="email">Your E-Mail🦉:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                minlength="1"
+                size="20" />
+            </div>
+            <br />
+            <div>
+              <label for="date">Your birthday🎁:</label>
+              <input
+                type="date"
+                id="date"
+                name="date"
+                required
+                minlength="1"
+                size="20" />
+            </div>
+            <br />
+            <h3>Questions</h3>
+            <div>
+              <label for="magical-creature"
+                >Which magical creature would you most like to befriend?</label
+              >
+              <br />
+              <select name="m-creature" id="magical-creature" required>
+                <option value="">--Please choose one magical creature--</option>
+                <option value="phoenix">A Phoenix</option>
+                <option value="hippogriff">A Hippogriff</option>
+                <option value="elf">A House-Elf</option>
+                <option value="dragon">A Dragon</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <label for="quality"
+                >What quality do you value most in yourself?</label
+              >
+              <br />
+              <select name="quality" id="quality" required>
+                <option value="">--Please choose one quality--</option>
+                <option value="bravery">Bravery</option>
+                <option value="ambition">Ambition</option>
+                <option value="loyalty">Loyalty</option>
+                <option value="ntelligence">Intelligence</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <label for="magical-object"
+                >If you found a mysterious object, what would you do
+                first?</label
+              >
+              <br />
+              <select name="magical-object" id="magical-object" required>
+                <option value="">--Please choose one option--</option>
+                <option value="examine">Examine it carefully for clues</option>
+                <option value="show-friend">
+                  Show it to your closest friends
+                </option>
+                <option value="use">
+                  Use it immediately to see what it does
+                </option>
+                <option value="keep">Hide it and keep it for yourself</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <button type="submit">Submit your application</button>
+            </div>
+          </form>
+          <br />
+        </fieldset>
+      </section>
+    </main>
+    <br />
+    <footer>
+      © 2025 Hogwarts School of Witchcraft and Wizardry. All rights reserved.
+      <br />
+      Contact us at:
+      <a href="mailto:admissions@hogwarts.edu">admissions@hogwarts.edu</a>
+    </footer>
+  </body>
+</html>
