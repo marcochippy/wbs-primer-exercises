@@ -88,6 +88,7 @@ p {
   padding-right: 5rem;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+  object-position: center;
 }
 
 .dogs h2 {
@@ -96,8 +97,8 @@ p {
 }
 
 .dogs img {
-  max-width: 33%;
-  max-height: 35vh;
+  width: 33%;
+  height: 33vh;
   object-fit: cover;
   padding-bottom: 1rem;
   border-radius: 5%;
