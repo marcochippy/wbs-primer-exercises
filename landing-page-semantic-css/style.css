@@ -96,8 +96,9 @@ p {
 .dogs img {
   max-width: 33%;
   max-height: auto;
-  object-fit: contain;
+  object-fit: cover;
   padding-bottom: 1rem;
+  border-radius: 5%;
 }
 
 .contact {
