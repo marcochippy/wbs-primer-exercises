@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
+      <div class="logo">-- Bean There Logo --</div>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -18,38 +20,34 @@
     <main>
       <section>
         <h1>Contact us!</h1>
-        <div>
-          <ul>
-            <li>Tel: <a href="tel:0125282048">0125282048</a></li>
-            <li>
-              Address:
-              <a href="https://maps.app.goo.gl/AEK3fVqDGGJtbACD7"
-                >Karolingerring 21, 50678 Cologne</a
-              >
-            </li>
-          </ul>
+        <div class="contact">
+          <li>Tel: <a href="tel:0125282048">0125282048</a></li>
+          <li>
+            Address:
+            <a href="https://maps.app.goo.gl/AEK3fVqDGGJtbACD7"
+              >Karolingerring 21, 50678 Cologne</a
+            >
+          </li>
         </div>
-        <div>
-          <img
-            src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="Coffee shop, image by Afta Putta Gunawan on pexels"
-            width="100%"
-            height="auto" />
-        </div>
+        <img
+          class="image"
+          src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Coffee shop, image by Afta Putta Gunawan on pexels"
+          width="100%"
+          height="auto" />
       </section>
-      <section>
+      <section class="form-back">
         <form>
-          Name: <br /><input type="text" /> <br />Mail:<br />
-          <input type="text" /> <br />
+          Name: <br /><input class="text" type="text" /> <br />Mail:<br />
+          <input class="text" type="text" /> <br />
           Message:
           <br />
-          <textarea style="width: 300px; height: 100px"></textarea>
+          <textarea class="text" style="width: 300px; height: 100px"></textarea>
           <br />
           <button type="submit">Send here</button>
         </form>
       </section>
     </main>
-    <br />
     <footer>--- Possible Footer section ---</footer>
   </body>
 </html>
