@@ -12,20 +12,17 @@ body {
 .header {
   background-color: rgb(123, 215, 123);
   padding: 20px;
-  /* margin-bottom: 5%; */
-  align-self: center;
 }
 
 header h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 nav {
   display: flex;
-  align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 nav ul {
@@ -46,8 +43,10 @@ nav ul a:hover {
 }
 
 main {
-  max-width: 1200px;
-  justify-self: center;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 h2 {
@@ -56,52 +55,43 @@ h2 {
 }
 
 p {
+  margin: auto;
   text-align: center;
-  padding-bottom: 1rem;
+  display: block;
+  padding-bottom: 2rem;
+  width: 80%;
 }
 
-.find-friend {
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 0.5rem;
+section {
+  padding-top: 2rem;
+  padding-bottom: 0.75rem;
 }
 
-.about-us {
-  background-color: lightgray;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
+.site-pet {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
 }
 
 .adopt {
+  display: block;
+  margin: 2.5% auto;
+  width: 80%;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: rgb(123, 215, 123);
+  border-radius: 30px;
+  box-shadow: 0px 5px 20px rgb(0, 0, 0, 0.2);
 }
 
-.dogs {
-  background-color: lightgray;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
-  object-position: center;
-}
-
-.dogs h2 {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-.dogs img {
-  width: 33%;
-  height: 33vh;
-  object-fit: cover;
-  padding-bottom: 1rem;
-  border-radius: 5%;
+.adopt ul {
+  letter-spacing: 0.05em;
+  margin-top: 0.5rem;
 }
 
 .contact {
@@ -111,10 +101,32 @@ p {
   padding-right: 5rem;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+  background-color: rgb(123, 215, 123);
+  border-radius: 30px;
+  box-shadow: 0px 5px 20px rgb(0, 0, 0, 0.2);
+  width: 80%;
 }
 
 footer {
   background-color: black;
   color: white;
   padding-top: 1rem;
+}
+
+.pet-gallery {
+  border-radius: 30px;
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+
+  border: solid;
+  border-color: green;
+}
+
+.pet-gallery-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: solid;
+  border-color: red;
 }
