@@ -95,7 +95,7 @@ section {
 }
 
 .contact {
-  justify-self: center;
+  margin: auto;
   text-align: center;
   padding-left: 5rem;
   padding-right: 5rem;
