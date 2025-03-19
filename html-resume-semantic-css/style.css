@@ -32,3 +32,40 @@ nav a {
 nav a:hover {
   color: hotpink;
 }
+
+header img {
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  /* filter: grayscale(1); */
+  margin: 1rem auto;
+}
+
+h1 {
+  text-align: center;
+  color: peru;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+main {
+  margin: 2rem 4rem;
+}
+
+main section {
+  margin-bottom: 3rem;
+}
+
+p {
+  max-width: 80ch;
+}
+
+main section li h3,
+main section li p {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+section li {
+  margin: 0.5rem;
+}
