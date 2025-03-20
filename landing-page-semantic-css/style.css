@@ -115,18 +115,75 @@ footer {
 
 .pet-gallery {
   border-radius: 30px;
-  width: auto;
-  height: 300px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
+  margin: auto;
 
   border: solid;
   border-color: green;
 }
 
 .pet-gallery-wrapper {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  margin: auto;
   width: 80%;
   border: solid;
   border-color: red;
+}
+
+button {
+  background-color: #0b3b2a;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Medium devices ( 992px) */
+@media only screen and (max-width: 992px) {
+  p {
+    width: 100%;
+  }
+  main {
+    max-width: 95%;
+  }
+  h1 {
+    display: none;
+    color: white;
+  }
+  img {
+    height: 30vh;
+    border: solid 1px;
+  }
+  .contact {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .adopt {
+    width: 100%;
+    border: solid 1px;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  .pet-gallery-wrapper {
+    width: 100%;
+  }
+
+  .pet-gallery {
+    height: 20vh;
+  }
+
+  .site-pet {
+    width: 100%;
+  }
 }
