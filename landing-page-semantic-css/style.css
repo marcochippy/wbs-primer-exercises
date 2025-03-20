@@ -158,9 +158,8 @@ img {
   main {
     max-width: 95%;
   }
-  h1 {
+  header h1 {
     display: none;
-    color: white;
   }
   img {
     height: 30vh;
