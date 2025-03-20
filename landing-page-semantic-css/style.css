@@ -116,7 +116,7 @@ footer {
 .pet-gallery {
   border-radius: 30px;
   width: 100%;
-  height: auto;
+  height: 20vh;
   object-fit: cover;
   margin: auto;
 
@@ -144,6 +144,10 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+img {
+  border: solid 1px;
 }
 
 /* Medium devices ( 992px) */
