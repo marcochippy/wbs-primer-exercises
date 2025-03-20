@@ -92,15 +92,14 @@ img {
   width: 120px;
   height: 57px;
   background: linear-gradient(0.434turn, #efefef 50%, #000000 50%);
-  padding: 3px;
+  padding: 4px;
   margin: 8px 40px auto 574px;
 }
 
 .button-inner {
   padding: 11px 0 9px 0;
   background-color: #c0c0c0;
-  display: block;
-  height: 50px;
+  height: 49px;
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: -0.3px;
