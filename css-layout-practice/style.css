@@ -7,11 +7,8 @@
 }
 
 main {
-  /* max-width: 1000px; */
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 .navbar {
@@ -60,14 +57,14 @@ main {
 .section-text {
   display: block;
   width: 50%;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   text-align: center;
 }
 
 .section-pic {
   display: block;
   width: 50%;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   text-align: center;
 }
 
@@ -89,18 +86,18 @@ main {
 .gallery-container {
   text-align: center;
   align-items: center;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   width: 100%;
 }
 
 .gallery {
   display: grid;
   justify-content: center;
-  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: 30% 30% 30%;
   grid-template-rows: auto;
   gap: 1rem;
   margin: 1rem auto;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 .gallery-item {
